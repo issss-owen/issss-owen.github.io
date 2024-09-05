@@ -3,6 +3,6 @@
 ## 材料與方法
 ### 數據搜集
 環境計測土壤溫度、土壤濕度、pH 值、EC 值等資料，計測時間從2020年11月06號到2021年03年15號，每小時計測一筆，傳到環境監控系統，以供紀錄，資料共計2987筆。
-![螢幕擷取畫面 2024-09-05 194727](https://github.com/user-attachments/assets/02b14a6d-7d21-46e1-a7c0-4c62da6de008)
+### ![螢幕擷取畫面 2024-09-05 194727](https://github.com/user-attachments/assets/02b14a6d-7d21-46e1-a7c0-4c62da6de008)
 ### 模型建置
 ### 使用語法 Python 作為模型建置環境，透過 Keras 建置 LSTM、BiLSTM 模型，並進行修正。
