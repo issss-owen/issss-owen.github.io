@@ -6,4 +6,11 @@
 ### ![螢幕擷取畫面 2024-09-05 194727](https://github.com/user-attachments/assets/02b14a6d-7d21-46e1-a7c0-4c62da6de008)
 ### 模型建置
 使用語法 Python 作為模型建置環境，透過 Keras 建置 LSTM、BiLSTM 模型，並進行修正。
-## ![LSTM.ipynb]
+## LSTM
+### ![螢幕擷取畫面 2024-09-05 195233](https://github.com/user-attachments/assets/b6000951-2a51-4a84-a1e6-34ed7aead4e6)
+## Bi-LSTM
+### ![螢幕擷取畫面 2024-09-05 195425](https://github.com/user-attachments/assets/9d0e27f0-87c2-4137-a7f1-b6f06363dfad)
+## GRU
+### ![螢幕擷取畫面 2024-09-05 195532](https://github.com/user-attachments/assets/55a344b2-d4ef-435a-8af6-888cd5869d9f)
+## Stacking model
+### ![螢幕擷取畫面 2024-09-05 195642](https://github.com/user-attachments/assets/8adc0d85-021e-421d-94f9-7debbd9e8af7)
