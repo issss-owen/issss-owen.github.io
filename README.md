@@ -20,4 +20,10 @@
 #### 預測準確性：從 RMSE 值來看，Multi-scale feature fusion model 多尺度特徵融合模型在所有模型中整體表現最佳，其次是 GRU，最後是 LSTM 和Bi-LSTM。這顯示堆疊模型在預測茶葉生長的環境條件方面最為精確，GRU也具有不錯的表現。模型選擇：選擇合適的模型對於提高預測精度非常重要。研究結果顯示，雖然 LSTM 和 Bi-LSTM 能夠有效處理時間序列數據，但在本研究中，GRU相較於多尺度特徵融合模型的性能更優。
 ![螢幕擷取畫面 2024-09-05 195859](https://github.com/user-attachments/assets/984c7bc3-2ad6-48a6-b3b8-9c28d5a44d41)
 ![螢幕擷取畫面 2024-09-05 200007](https://github.com/user-attachments/assets/0f441953-8f8e-49d8-8083-79611bb292a7)
-
+![螢幕擷取畫面 2024-09-05 200054](https://github.com/user-attachments/assets/312b4d42-603f-4051-b4c0-0beb18ca2a78)
+## 結論
+### 研究結果顯示，不同深度學習模型在預測環境條件方面的性能如下：
+#### 一、LSTM 和 Bi-LSTM 的 RMSE 相對於 GRU 和 Multi-scale featurefusion model Model 較低，預測性能相對較低，但仍在可接受範圍內。
+#### 二、GRU 的 RMSE 較 LSTM 和 Bi-LSTM 低，雖然在土讓濕度、溫度和EC 值的預測結果上有所提升，但 pH 值卻下降許多，雖仍在可接受範圍內，但也代表該模型也不適預測 pH 值這種資料型態。
+#### 三、多尺度特徵融合模型（Multi-scale feature fusion model Model）各變數的 RMSE 雖不是所有模型中最低的，但它彌補了 LSTM 及 Bi-LSTM在預測 EC 上的不足，在預測 pH 值的表現上也提取了 LSTM 及 BiLSTM 好的特徵，去補足 GRU 在預測 pH 值上的弱點，四個模型的土壤濕度及溫度的預測結果差異並不大。
+### 使用四種模型進行土壤濕度預測的散佈圖顯示，預測值與實際值之間有高度的線性關係，顯示這兩種模型在土壤濕度預測方面具有較好的性能。大部分數據點都分布在對角線附近，進一步證實了這些模型的有效性。
